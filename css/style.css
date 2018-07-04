@@ -1,0 +1,219 @@
+/************************************************************
+Theme name : Mental Health microsite
+Description: This blog is...
+Author: Patricia Masioni
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Version: 1.0
+Tags: ecommerce, personnal project.
+**************************************************************
+Table of Contents:
+  0. GLOBAL
+  1. MAIN
+  2.SECTION
+  3. ARTICLES
+  4. LINK
+  5. FOOTER
+**************************************************************/
+
+
+/************************************************
+0.	GLOBAL
+************************************************/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-size: 16px;
+  font-family: "Playfair Display", "Lato", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  color: darkslategray;
+
+}
+
+hr{
+
+}
+
+h2{
+  color:crimson;
+  font-size: 4rem;
+}
+
+li{
+  list-style:none;
+}
+
+a{
+  text-decoration: none;
+  color: darkslategrey;
+}
+
+a:hover{
+  text-decoration: line-through;
+
+}
+/************************************************
+0.	SECTION_1
+************************************************/
+
+
+
+header {
+  height: 100vh;
+  top: 0;
+  right: 0;
+  position: fixed;
+  margin: 0 2rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 200;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+
+}
+
+#nav {
+  float: right;
+  border-left: solid 0.1rem black;
+
+}
+
+#nav li{
+  padding: 1rem;
+}
+
+section.content{
+  width: 100%;
+  height: 100vh;
+  background-color: aquamarine;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+
+}
+
+#title{
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  color: darkslategray;
+}
+
+h1{
+  font-size: 18rem;
+}
+
+h3{
+  font-size: 2rem;
+}
+article.content_title{
+  width: 100%;
+  height: 30vh;
+  background-color:azure;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+#button_scroll{
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+/************************************************
+0.	SECTION_2
+************************************************/
+
+
+#screen_1, #screen_2, #screen_3{
+  width: 50%;
+  height: 50vh;
+  border: crimson solid 0.07rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-top: -2rem;
+  padding: 5rem 8rem;
+}
+
+#screen_1 p, #screen_2 p, #screen_3 p{
+  width: 50%;
+}
+
+
+.highlight_content{
+  background-color: whitesmoke;
+  border-radius: 0.5rem;
+  margin: 3rem 0;
+
+}
+
+.highlight_content p{
+  font-size: 1.5rem;
+}
+
+/************************************************
+0.	SECTION_3
+************************************************/
+
+#card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+
+.card{
+  width: 30%;
+  border: crimson solid 0.07rem;
+  margin: -2rem 3rem;
+}
+
+.card ul{
+  padding: 2rem;
+
+}
+
+.card h2{
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+
+/************************************************
+0.	SECTION_BUTTON
+************************************************/
+
+.button{
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+#button {
+
+
+}
